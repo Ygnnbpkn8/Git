@@ -1,0 +1,13 @@
+#gitee配置
+Host gitee.com
+	HostName gitee.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_gitee
+	IdentitiesOnly yes
+
+#github配置
+HOST github.com
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_github
+	IdentitiesOnly yes
